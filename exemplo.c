@@ -5,10 +5,10 @@
 #define BUFFER_SIZE 30
 
 typedef struct contato {
-int codigo ;
-char nome [100];
-char email [100];
-char celular [20];
+    int codigo ;
+    char nome [100];
+    char email [100];
+    char celular [20];
 } Contato;
 
 void adicionarContato ();
